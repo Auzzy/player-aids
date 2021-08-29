@@ -1,0 +1,34 @@
+{
+    "games": [
+        {
+            "name": "Power Grid",
+            "dir": "power-grid",
+            "bggId": "2651"
+        },
+        {
+            "name": "On Mars",
+            "dir": "on-mars",
+            "bggId": "184267"
+        },
+        {
+            "name": "1846: The Race For the Midwest",
+            "dir": "1846",
+            "bggId": "17405"
+        },
+        {
+            "name": "Pipeline",
+            "dir": "pipeline",
+            "bggId": "256730"
+        },
+        {
+            "name": "Wingspan",
+            "dir": "wingspan",
+            "bggId": "266192"
+        },
+        {
+            "name": "Troyes",
+            "dir": "troyes",
+            "bggId": "73439"
+        }
+    ]
+}

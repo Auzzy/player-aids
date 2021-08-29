@@ -1,0 +1,5 @@
+Flask == 2.0.1
+Flask-CORS == 3.0.10
+
+# boardgamegeek2 == 1.0.1
+git+https://github.com/Irazall/boardgamegeek.git@patch-1

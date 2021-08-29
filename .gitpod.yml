@@ -1,0 +1,16 @@
+ports:
+  - port: 5000
+    visibility: public
+    onOpen: ignore
+  - port: 8080
+    visibility: public
+    onOpen: open-browser
+tasks:
+  - name: WebApp
+    init: pushd webapp/ && npm install && popd
+    command: cd webapp/ && echo "VUE_APP_API_URL=`gp url 5000`" > .env && npm run serve
+    openMode: tab-before
+  - name: API
+    init: pip install -r api/requirements.txt
+    command: cd api/ && flask run -p 5000
+    openMode: tab-before
